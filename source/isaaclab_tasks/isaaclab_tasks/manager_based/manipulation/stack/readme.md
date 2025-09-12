@@ -10,6 +10,13 @@ For two task generation:
 - Run api.py
 
 The user_input for the prompt is written in the terminal after the file is run.
+The user_input has been tested for the Chemistry Tasks:
+- Heating a solution
+- Stirring a solution
+- Weighing a solution
+- Pouring a solution
+- Heating a solution then weighing a solution
+- Weighing a solution then pouring a solution
 
 The locations of the files are found below:
 stack/
