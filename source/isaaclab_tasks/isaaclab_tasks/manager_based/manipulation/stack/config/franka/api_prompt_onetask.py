@@ -56,7 +56,6 @@ class LLMClient:
             Placing object1 on object2	mdp.objects_stacked	"lower_object_cfg": SceneEntityCfg("object2")
             All other tasks	mdp.object_reached_goal	None
         - A time out term, the DoneTerm includes: func=mdp.time_out, time_out=True.
-        - Rename "success_term" to "success"
 
     ### ObsGroup/ObsTerm Definitions
 
