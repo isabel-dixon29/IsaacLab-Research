@@ -12,13 +12,15 @@ The locations of the files are found below:
 stack/
 ├── __init__.py
 ├── mdp
+    ├── __init__.py
+    └── terminations.py
 ├── lab_env_cfg.py
 └── config
-    ├── franka
-    │   ├── agent
-    │   ├── __init__.py  # <- this is where we register the environment and configurations to gym registry
-    │   ├── api_prompt_onetask.py
-    │   ├── api.py
-    │   └── generated_llm.py
-    ├── __init__.py
-    └── velocity_env_cfg.py
+    └── franka
+        ├── agent
+        ├── __init__.py  # <- this is where we register the environment and configurations to gym registry
+        ├── api_prompt_onetask.py
+        ├── api.py
+        ├── generated_llm.py
+        ├── glassware_files.py
+        └── stack_pos_env_cfg.py
