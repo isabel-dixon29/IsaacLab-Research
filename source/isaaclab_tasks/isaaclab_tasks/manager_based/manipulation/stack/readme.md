@@ -11,7 +11,7 @@ For two task generation:
 
 The user_input for the prompt is written in the terminal after the file is run.
 
-The user_input has been tested for the Chemistry Tasks:
+The Chemistry Tasks that have been used for the user_input are:
 - Heating a solution
 - Stirring a solution
 - Weighing a solution
