@@ -1,7 +1,7 @@
 Using a Large Language Model through Ollama for Task Generation
 
 Each of these api prompts connect to the LLM and saves the code to generated_llm.py.
-The LLM prompt refers to stack_pos_env_cfg as a library of references.
+The LLM prompt refers to stack_pos_env_cfg.py as a library of references.
 
 For a single task generation:
 - Run api_prompt_onetask.py
